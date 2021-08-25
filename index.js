@@ -17,6 +17,7 @@ if (!config.get('jwtPrivateKey')) {
 const users = require('./routes/users')
 const auth = require('./routes/auth')
 
+//export interview_jwtPrivateKey=interview
 
 app.use(express.json());
 app.set("view engine", "ejs");
